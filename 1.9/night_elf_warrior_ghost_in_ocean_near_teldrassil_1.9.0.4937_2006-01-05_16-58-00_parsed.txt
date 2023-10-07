@@ -1,0 +1,1473 @@
+# TrinityCore - WowPacketParser
+# File name: night_elf_warrior_ghost_in_ocean_near_teldrassil_1.9.0.4937_2006-01-05_16-58-00.pkt
+# Detected build: V1_9_0_4937
+# Detected locale: enUS
+# Targeted database: Classic
+# Parsing date: 10/07/2023 12:00:26
+
+ClientToServer: CMSG_ENUM_CHARACTERS (0x0037) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:01.000 Number: 0
+
+ServerToClient: SMSG_ENUM_CHARACTERS_RESULT (0x003B) Length: 334 ConnIdx: 0 Time: 01/01/1970 00:00:02.000 Number: 1
+Count: 2
+GUID: Full: 0x01326C5F Type: Player Low: 20081759
+Name: Corruption
+Race: 4 (NightElf)
+Class: 5 (Priest)
+Gender: 1 (Female)
+Skin: 7
+Face: 8
+Hair Style: 0
+Hair Color: 4
+Facial Hair: 4
+Level: 9
+Zone Id: 148 (148)
+Map Id: 1 (1)
+Position: X: 6543.387 Y: 929.6213 Z: 5.922288
+Guild Id: 0
+Character Flags: 524288 (Unknown17)
+First Login: true
+Pet Display Id: 0
+Pet Level: 0
+Pet Family: 0 (None)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 9944
+Equip Inventory Type: 4 (Body)
+Equip Display Id: 27472
+Equip Inventory Type: 20 (Robe)
+Equip Display Id: 16663
+Equip Inventory Type: 6 (Waist)
+Equip Display Id: 20210
+Equip Inventory Type: 7 (Legs)
+Equip Display Id: 16659
+Equip Inventory Type: 8 (Feet)
+Equip Display Id: 16664
+Equip Inventory Type: 9 (Wrists)
+Equip Display Id: 16817
+Equip Inventory Type: 10 (Hands)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 15164
+Equip Inventory Type: 16 (Cloak)
+Equip Display Id: 19782
+Equip Inventory Type: 21 (MainHandWeapon)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Bag Display Id: 0
+Bag Inventory Type: 0 (NonEquip)
+GUID: Full: 0x0140E1B4 Type: Player Low: 21029300
+Name: Xptoo
+Race: 4 (NightElf)
+Class: 1 (Warrior)
+Gender: 0 (Male)
+Skin: 1
+Face: 0
+Hair Style: 5
+Hair Color: 2
+Facial Hair: 1
+Level: 1
+Zone Id: 141 (141)
+Map Id: 1 (1)
+Position: X: 8438.17 Y: 1929.662 Z: 0
+Guild Id: 0
+Character Flags: 532480 (Ghost, Unknown17)
+First Login: true
+Pet Display Id: 0
+Pet Level: 0
+Pet Family: 0 (None)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Bag Display Id: 0
+Bag Inventory Type: 0 (NonEquip)
+
+ClientToServer: CMSG_PLAYER_LOGIN (0x003D) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:03.000 Number: 2
+GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+
+ServerToClient: SMSG_ACCOUNT_DATA_TIMES (0x0209) Length: 128 ConnIdx: 0 Time: 01/01/1970 00:00:04.000 Number: 3
+[0] MD5 Hash: 00000000000000000000000000000000
+[1] MD5 Hash: 00000000000000000000000000000000
+[2] MD5 Hash: 00000000000000000000000000000000
+[3] MD5 Hash: 00000000000000000000000000000000
+[4] MD5 Hash: 00000000000000000000000000000000
+[5] MD5 Hash: 00000000000000000000000000000000
+[6] MD5 Hash: 00000000000000000000000000000000
+[7] MD5 Hash: 00000000000000000000000000000000
+
+ClientToServer: CMSG_UPDATE_ACCOUNT_DATA (0x020B) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:05.000 Number: 4
+Data Type: 4 (GlobalMacrosCache)
+Account Data: 
+
+ClientToServer: CMSG_UPDATE_ACCOUNT_DATA (0x020B) Length: 59 ConnIdx: 0 Time: 01/01/1970 00:00:06.000 Number: 5
+Data Type: 6 (PerCharacterLayoutCache)
+Account Data: Frame: ItemRefTooltip
+FrameLevel: 1
+X: 653
+Y: -578
+
+ClientToServer: CMSG_UPDATE_ACCOUNT_DATA (0x020B) Length: 1094 ConnIdx: 0 Time: 01/01/1970 00:00:07.000 Number: 6
+Data Type: 7 (PerCharacterChatCache)
+Account Data: VERSION 2
+
+ADDEDVERSION 2
+
+CHANNELS
+END
+
+ZONECHANNELS 10485763
+
+COLORS
+SAY 255 255 255
+PARTY 170 170 255
+RAID 255 127 0
+GUILD 64 255 64
+OFFICER 64 192 64
+YELL 255 64 64
+WHISPER 255 128 255
+WHISPER_INFORM 255 128 255
+EMOTE 255 128 64
+TEXT_EMOTE 255 128 64
+SYSTEM 255 255 0
+MONSTER_SAY 255 255 159
+MONSTER_YELL 255 64 64
+MONSTER_EMOTE 255 128 64
+CHANNEL 255 192 192
+CHANNEL_JOIN 192 128 128
+CHANNEL_LEAVE 192 128 128
+CHANNEL_LIST 192 128 128
+CHANNEL_NOTICE 192 192 192
+CHANNEL_NOTICE_USER 192 192 192
+AFK 255 128 255
+DND 255 128 255
+IGNORED 255 0 0
+SKILL 85 85 255
+LOOT 0 170 0
+COMBAT_MISC_INFO 128 128 255
+MONSTER_WHISPER 179 179 179
+COMBAT_SELF_HITS 255 255 255
+COMBAT_SELF_MISSES 255 255 255
+COMBAT_PET_HITS 255 255 255
+COMBAT_PET_MISSES 255 255 255
+COMBAT_PARTY_HITS 255 255 255
+COMBAT_PARTY_MISSES 255 255 255
+COMBAT_FRIENDLYPLAYER_HITS 255 255 255
+COMBAT_FRIENDLYPLAYER_MISSES 255 255 255
+COMBAT_HOSTILEPLAYER_HITS 255 255 255
+COMBAT_HOSTILEPLAYER_MISSES 255 255 255
+COMBAT_CREATURE_VS_SELF_HITS 255 47 47
+COMBAT_CREATURE_VS_SELF_MISSES 255 47 47
+COMBAT_CREATURE_VS_PARTY_HITS 255 255 255
+COMBAT_CREATURE_VS_PARTY_MISSES 255 255 255
+COMBAT_CREATURE_VS_CREATURE_HITS 255 255 255
+COMBAT_CREATURE_VS_CREATURE_MISSES 255 255 255
+COMBAT_FRIENDLY_DEATH 255 255 255
+COMBAT_HOSTILE_DEATH 255 255 255
+COMBAT_XP_GAIN 111 111 255
+SPELL_SELF_DAMAGE 255 255 0
+SPELL_SELF_BUFF 255 255 0
+SPELL_PET_DAMAGE 255 255 255
+SPELL_PET_BUFF 255 255 255
+SPELL_PARTY_DAMAGE 255 255 255
+SPELL_PARTY_BUFF 255 255 255
+SPELL_FRIENDLYPLAYER_DAMAGE 255 255 255
+SPELL_FRIENDLYPLAYER_BUFF 255 255 255
+SPELL_HOSTILEPLAYER_DAMAGE 255 255 255
+SPELL_HOSTILEPLAYER_BUFF 255 255 255
+SPELL_CREATURE_VS_SELF_DAMAGE 202 76 217
+SPELL_CREATURE_VS_SELF_BUFF 255 255 255
+SPELL_CREATURE_VS_PARTY_DAMAGE 255 255 255
+SPELL_CREATURE_VS_PARTY_BUFF 255 255 255
+SPELL_CREATURE_VS_CREATURE_DAMAGE 255 255 255
+SPELL_CREATURE_VS_CREATURE_BUFF 255 255 255
+SPELL_TRADESKILLS 255 255 255
+SPELL_DAMAGESHIELDS_ON_SELF 255 255 255
+SPELL_DAMAGESHIELDS_ON_OTHERS 255 255 255
+SPELL_AURA_GONE_SELF 255 255 255
+SPELL_AURA_GONE_PARTY 255 255 255
+SPELL_AURA_GONE_OTHER 255 255 255
+SPELL_ITEM_ENCHANTMENTS 255 255 255
+SPELL_BREAK_AURA 255 255 255
+SPELL_PERIODIC_SELF_DAMAGE 255 255 255
+SPELL_PERIODIC_SELF_BUFFS 255 255 255
+SPELL_PERIODIC_PARTY_DAMAGE 255 255 255
+SPELL_PERIODIC_PARTY_BUFFS 255 255 255
+SPELL_PERIODIC_FRIENDLYPLAYER_DAMAGE 255 255 255
+SPELL_PERIODIC_FRIENDLYPLAYER_BUFFS 255 255 255
+SPELL_PERIODIC_HOSTILEPLAYER_DAMAGE 255 255 255
+SPELL_PERIODIC_HOSTILEPLAYER_BUFFS 255 255 255
+SPELL_PERIODIC_CREATURE_DAMAGE 255 255 255
+SPELL_PERIODIC_CREATURE_BUFFS 255 255 255
+SPELL_FAILED_LOCALPLAYER 255 255 255
+COMBAT_HONOR_GAIN 224 202 10
+BG_SYSTEM_NEUTRAL 255 120 10
+BG_SYSTEM_ALLIANCE 0 174 239
+BG_SYSTEM_HORDE 255 0 0
+COMBAT_FACTION_CHANGE 128 128 255
+MONEY 255 255 0
+CHANNEL1 255 192 192
+CHANNEL2 255 192 192
+CHANNEL3 255 192 192
+CHANNEL4 255 192 192
+CHANNEL5 255 192 192
+CHANNEL6 255 192 192
+CHANNEL7 255 192 192
+CHANNEL8 255 192 192
+CHANNEL9 255 192 192
+CHANNEL10 255 192 192
+END
+
+WINDOW 1
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 1
+SHOWN 1
+
+MESSAGES
+SYSTEM
+SAY
+YELL
+WHISPER
+PARTY
+GUILD
+CREATURE
+CHANNEL
+SKILL
+LOOT
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 10485763
+
+END
+
+WINDOW 2
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 2
+SHOWN 0
+
+MESSAGES
+COMBAT_MISC_INFO
+COMBAT_SELF_HITS
+COMBAT_SELF_MISSES
+COMBAT_PET_HITS
+COMBAT_PET_MISSES
+COMBAT_HOSTILEPLAYER_HITS
+COMBAT_HOSTILEPLAYER_MISSES
+COMBAT_CREATURE_VS_SELF_HITS
+COMBAT_CREATURE_VS_SELF_MISSES
+COMBAT_FRIENDLY_DEATH
+COMBAT_HOSTILE_DEATH
+COMBAT_XP_GAIN
+SPELL_SELF_DAMAGE
+SPELL_SELF_BUFF
+SPELL_PET_DAMAGE
+SPELL_PET_BUFF
+SPELL_HOSTILEPLAYER_DAMAGE
+SPELL_HOSTILEPLAYER_BUFF
+SPELL_CREATURE_VS_SELF_DAMAGE
+SPELL_CREATURE_VS_SELF_BUFF
+SPELL_TRADESKILLS
+SPELL_DAMAGESHIELDS_ON_SELF
+SPELL_AURA_GONE_SELF
+SPELL_ITEM_ENCHANTMENTS
+SPELL_BREAK_AURA
+SPELL_PERIODIC_SELF_DAMAGE
+SPELL_PERIODIC_SELF_BUFFS
+SPELL_PERIODIC_HOSTILEPLAYER_DAMAGE
+SPELL_PERIODIC_HOSTILEPLAYER_BUFFS
+SPELL_PERIODIC_CREATURE_DAMAGE
+SPELL_PERIODIC_CREATURE_BUFFS
+COMBAT_HONOR_GAIN
+COMBAT_FACTION_CHANGE
+MONEY
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 3
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 4
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 5
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 6
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 7
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 8
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 9
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+WINDOW 10
+SIZE 0
+COLOR 0 0 0 0
+LOCKED 1
+DOCKED 0
+SHOWN 0
+
+MESSAGES
+END
+
+CHANNELS
+END
+
+ZONECHANNELS 0
+
+END
+
+
+
+ServerToClient: SMSG_FRIEND_LIST (0x0067) Length: 1 ConnIdx: 0 Time: 01/01/1970 00:00:08.000 Number: 7
+Count: 0
+
+ServerToClient: SMSG_IGNORE_LIST (0x006B) Length: 1 ConnIdx: 0 Time: 01/01/1970 00:00:09.000 Number: 8
+Count: 0
+
+ServerToClient: SMSG_SET_REST_START (0x021E) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:10.000 Number: 9
+|-------------------------------------------------|---------------------------------|
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
+|-------------------------------------------------|---------------------------------|
+| 39 00 00 00                                     | 9 . . .                         |
+|-------------------------------------------------|---------------------------------|
+
+ServerToClient: SMSG_BIND_POINT_UPDATE (0x0155) Length: 20 ConnIdx: 0 Time: 01/01/1970 00:00:11.000 Number: 10
+Position: X: 10311.3 Y: 831.463 Z: 1326.41
+Map Id: 1 (1)
+Zone Id: 188 (188)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:12.000 Number: 11
+Class: 4 (Armor)
+Mask: 2 (Unk2)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:13.000 Number: 12
+Class: 2 (Weapon)
+Mask: 128 (Unk80)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:14.000 Number: 13
+Class: 2 (Weapon)
+Mask: 32896 (Unk80, Unk8000)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:15.000 Number: 14
+Class: 4 (Armor)
+Mask: 3 (Unk1, Unk2)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:16.000 Number: 15
+Class: 2 (Weapon)
+Mask: 49280 (Unk80, Unk4000, Unk8000)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:17.000 Number: 16
+Class: 4 (Armor)
+Mask: 67 (Unk1, Unk2, Unk40)
+
+ServerToClient: SMSG_UPDATE_AURA_DURATION (0x0137) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:18.000 Number: 17
+Slot: 0
+Duration: 0
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:19.000 Number: 18
+Class: 4 (Armor)
+Mask: 75 (Unk1, Unk2, Unk8, Unk40)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:20.000 Number: 19
+Class: 4 (Armor)
+Mask: 79 (Unk1, Unk2, Unk4, Unk8, Unk40)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:21.000 Number: 20
+Class: 2 (Weapon)
+Mask: 49296 (Unk10, Unk80, Unk4000, Unk8000)
+
+ServerToClient: SMSG_UPDATE_AURA_DURATION (0x0137) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:22.000 Number: 21
+Slot: 0
+Duration: 0
+
+ServerToClient: SMSG_UPDATE_AURA_DURATION (0x0137) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:23.000 Number: 22
+Slot: 33
+Duration: 0
+
+ServerToClient: SMSG_UPDATE_AURA_DURATION (0x0137) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:24.000 Number: 23
+Slot: 32
+Duration: 0
+
+ServerToClient: SMSG_UPDATE_AURA_DURATION (0x0137) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:25.000 Number: 24
+Slot: 33
+Duration: 0
+
+ServerToClient: SMSG_TUTORIAL_FLAGS (0x00FD) Length: 32 ConnIdx: 0 Time: 01/01/1970 00:00:26.000 Number: 25
+[0] TutorialData: 255
+[1] TutorialData: 255
+[2] TutorialData: 255
+[3] TutorialData: 255
+[4] TutorialData: 255
+[5] TutorialData: 255
+[6] TutorialData: 255
+[7] TutorialData: 255
+[8] TutorialData: 255
+[9] TutorialData: 255
+[10] TutorialData: 255
+[11] TutorialData: 255
+[12] TutorialData: 255
+[13] TutorialData: 255
+[14] TutorialData: 255
+[15] TutorialData: 255
+[16] TutorialData: 255
+[17] TutorialData: 255
+[18] TutorialData: 255
+[19] TutorialData: 255
+[20] TutorialData: 255
+[21] TutorialData: 255
+[22] TutorialData: 255
+[23] TutorialData: 255
+[24] TutorialData: 255
+[25] TutorialData: 255
+[26] TutorialData: 255
+[27] TutorialData: 255
+[28] TutorialData: 255
+[29] TutorialData: 255
+[30] TutorialData: 255
+[31] TutorialData: 255
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:27.000 Number: 26
+Class: 2 (Weapon)
+Mask: 49296 (Unk10, Unk80, Unk4000, Unk8000)
+
+ServerToClient: SMSG_SET_PROFICIENCY (0x0127) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:28.000 Number: 27
+Class: 4 (Armor)
+Mask: 79 (Unk1, Unk2, Unk4, Unk8, Unk40)
+
+ServerToClient: SMSG_SEND_KNOWN_SPELLS (0x012A) Length: 197 ConnIdx: 0 Time: 01/01/1970 00:00:29.000 Number: 28
+Talent Spec: 0
+Spell Count: 41
+[0] Spell ID: 9078 (9078)
+[0] Unk Int16: -4370
+[1] Spell ID: 107 (107)
+[1] Unk Int16: -4370
+[2] Spell ID: 204 (204)
+[2] Unk Int16: -4370
+[3] Spell ID: 81 (81)
+[3] Unk Int16: -4370
+[4] Spell ID: 522 (522)
+[4] Unk Int16: -4370
+[5] Spell ID: 5301 (5301)
+[5] Unk Int16: -4370
+[6] Spell ID: 201 (201)
+[6] Unk Int16: -4370
+[7] Spell ID: 1180 (1180)
+[7] Unk Int16: -4370
+[8] Spell ID: 6233 (6233)
+[8] Unk Int16: -4370
+[9] Spell ID: 6246 (6246)
+[9] Unk Int16: -4370
+[10] Spell ID: 6247 (6247)
+[10] Unk Int16: -4370
+[11] Spell ID: 2382 (2382)
+[11] Unk Int16: -4370
+[12] Spell ID: 3365 (3365)
+[12] Unk Int16: -4370
+[13] Spell ID: 3050 (3050)
+[13] Unk Int16: -4370
+[14] Spell ID: 9125 (9125)
+[14] Unk Int16: -4370
+[15] Spell ID: 6477 (6477)
+[15] Unk Int16: -4370
+[16] Spell ID: 6478 (6478)
+[16] Unk Int16: -4370
+[17] Spell ID: 6603 (6603)
+[17] Unk Int16: -4370
+[18] Spell ID: 7266 (7266)
+[18] Unk Int16: -4370
+[19] Spell ID: 7267 (7267)
+[19] Unk Int16: -4370
+[20] Spell ID: 7355 (7355)
+[20] Unk Int16: -4370
+[21] Spell ID: 2479 (2479)
+[21] Unk Int16: -4370
+[22] Spell ID: 8386 (8386)
+[22] Unk Int16: -4370
+[23] Spell ID: 21651 (21651)
+[23] Unk Int16: -4370
+[24] Spell ID: 21652 (21652)
+[24] Unk Int16: -4370
+[25] Spell ID: 22027 (22027)
+[25] Unk Int16: -4370
+[26] Spell ID: 22810 (22810)
+[26] Unk Int16: -4370
+[27] Spell ID: 9116 (9116)
+[27] Unk Int16: -4370
+[28] Spell ID: 78 (78)
+[28] Unk Int16: -4370
+[29] Spell ID: 2457 (2457)
+[29] Unk Int16: -4370
+[30] Spell ID: 671 (671)
+[30] Unk Int16: -4370
+[31] Spell ID: 668 (668)
+[31] Unk Int16: -4370
+[32] Spell ID: 8737 (8737)
+[32] Unk Int16: -4370
+[33] Spell ID: 9077 (9077)
+[33] Unk Int16: -4370
+[34] Spell ID: 198 (198)
+[34] Unk Int16: -4370
+[35] Spell ID: 20580 (20580)
+[35] Unk Int16: -4370
+[36] Spell ID: 20583 (20583)
+[36] Unk Int16: -4370
+[37] Spell ID: 20582 (20582)
+[37] Unk Int16: -4370
+[38] Spell ID: 20585 (20585)
+[38] Unk Int16: -4370
+[39] Spell ID: 21009 (21009)
+[39] Unk Int16: -4370
+[40] Spell ID: 203 (203)
+[40] Unk Int16: -4370
+Cooldown Count: 2
+[0] Cooldown Spell ID: 2457 (2457)
+[0] Cooldown Cast Item ID: 0
+[0] Cooldown Spell Category: 47
+[0] Cooldown Time: 0
+[0] Cooldown Category Time: 998
+[1] Cooldown Spell ID: 20584 (20584)
+[1] Cooldown Cast Item ID: 0
+[1] Cooldown Spell Category: 0
+[1] Cooldown Time: 0
+[1] Cooldown Category Time: 0
+
+ServerToClient: SMSG_UPDATE_ACTION_BUTTONS (0x0129) Length: 480 ConnIdx: 0 Time: 01/01/1970 00:00:30.000 Number: 29
+[0] Action: 6603
+[0] Type: Spell
+[72] Action: 6603
+[72] Type: Spell
+[73] Action: 78
+[73] Type: Spell
+[83] Action: 117
+[83] Type: Item
+[84] Action: 6603
+[84] Type: Spell
+[96] Action: 6603
+[96] Type: Spell
+[108] Action: 6603
+[108] Type: Spell
+
+ServerToClient: SMSG_INITIALIZE_FACTIONS (0x0122) Length: 324 ConnIdx: 0 Time: 01/01/1970 00:00:31.000 Number: 30
+Count: 64
+[0] Faction Flags: 2 (AtWar)
+[0] Faction Standing: 0 (Hated)
+[1] Faction Flags: 0 (None)
+[1] Faction Standing: 0 (Hated)
+[2] Faction Flags: 2 (AtWar)
+[2] Faction Standing: 0 (Hated)
+[3] Faction Flags: 2 (AtWar)
+[3] Faction Standing: 0 (Hated)
+[4] Faction Flags: 16 (Peace)
+[4] Faction Standing: 0 (Hated)
+[5] Faction Flags: 0 (None)
+[5] Faction Standing: 0 (Hated)
+[6] Faction Flags: 2 (AtWar)
+[6] Faction Standing: 0 (Hated)
+[7] Faction Flags: 0 (None)
+[7] Faction Standing: 0 (Hated)
+[8] Faction Flags: 16 (Peace)
+[8] Faction Standing: 0 (Hated)
+[9] Faction Flags: 0 (None)
+[9] Faction Standing: 0 (Hated)
+[10] Faction Flags: 8 (Inivisible)
+[10] Faction Standing: 0 (Hated)
+[11] Faction Flags: 9 (Visible, Inivisible)
+[11] Faction Standing: 0 (Hated)
+[12] Faction Flags: 14 (AtWar, Hidden, Inivisible)
+[12] Faction Standing: 0 (Hated)
+[13] Faction Flags: 0 (None)
+[13] Faction Standing: 0 (Hated)
+[14] Faction Flags: 6 (AtWar, Hidden)
+[14] Faction Standing: 0 (Hated)
+[15] Faction Flags: 6 (AtWar, Hidden)
+[15] Faction Standing: 0 (Hated)
+[16] Faction Flags: 6 (AtWar, Hidden)
+[16] Faction Standing: 0 (Hated)
+[17] Faction Flags: 6 (AtWar, Hidden)
+[17] Faction Standing: 0 (Hated)
+[18] Faction Flags: 17 (Visible, Peace)
+[18] Faction Standing: 0 (Hated)
+[19] Faction Flags: 17 (Visible, Peace)
+[19] Faction Standing: 0 (Hated)
+[20] Faction Flags: 17 (Visible, Peace)
+[20] Faction Standing: 0 (Hated)
+[21] Faction Flags: 17 (Visible, Peace)
+[21] Faction Standing: 0 (Hated)
+[22] Faction Flags: 4 (Hidden)
+[22] Faction Standing: 0 (Hated)
+[23] Faction Flags: 4 (Hidden)
+[23] Faction Standing: 0 (Hated)
+[24] Faction Flags: 4 (Hidden)
+[24] Faction Standing: 0 (Hated)
+[25] Faction Flags: 4 (Hidden)
+[25] Faction Standing: 0 (Hated)
+[26] Faction Flags: 4 (Hidden)
+[26] Faction Standing: 0 (Hated)
+[27] Faction Flags: 0 (None)
+[27] Faction Standing: 0 (Hated)
+[28] Faction Flags: 0 (None)
+[28] Faction Standing: 0 (Hated)
+[29] Faction Flags: 4 (Hidden)
+[29] Faction Standing: 0 (Hated)
+[30] Faction Flags: 4 (Hidden)
+[30] Faction Standing: 0 (Hated)
+[31] Faction Flags: 4 (Hidden)
+[31] Faction Standing: 0 (Hated)
+[32] Faction Flags: 4 (Hidden)
+[32] Faction Standing: 0 (Hated)
+[33] Faction Flags: 4 (Hidden)
+[33] Faction Standing: 0 (Hated)
+[34] Faction Flags: 4 (Hidden)
+[34] Faction Standing: 0 (Hated)
+[35] Faction Flags: 2 (AtWar)
+[35] Faction Standing: 0 (Hated)
+[36] Faction Flags: 0 (None)
+[36] Faction Standing: 0 (Hated)
+[37] Faction Flags: 0 (None)
+[37] Faction Standing: 0 (Hated)
+[38] Faction Flags: 2 (AtWar)
+[38] Faction Standing: 0 (Hated)
+[39] Faction Flags: 20 (Hidden, Peace)
+[39] Faction Standing: 0 (Hated)
+[40] Faction Flags: 16 (Peace)
+[40] Faction Standing: 0 (Hated)
+[41] Faction Flags: 2 (AtWar)
+[41] Faction Standing: 0 (Hated)
+[42] Faction Flags: 0 (None)
+[42] Faction Standing: 0 (Hated)
+[43] Faction Flags: 16 (Peace)
+[43] Faction Standing: 0 (Hated)
+[44] Faction Flags: 16 (Peace)
+[44] Faction Standing: 0 (Hated)
+[45] Faction Flags: 16 (Peace)
+[45] Faction Standing: 0 (Hated)
+[46] Faction Flags: 6 (AtWar, Hidden)
+[46] Faction Standing: 0 (Hated)
+[47] Faction Flags: 24 (Inivisible, Peace)
+[47] Faction Standing: 0 (Hated)
+[48] Faction Flags: 14 (AtWar, Hidden, Inivisible)
+[48] Faction Standing: 0 (Hated)
+[49] Faction Flags: 6 (AtWar, Hidden)
+[49] Faction Standing: 0 (Hated)
+[50] Faction Flags: 16 (Peace)
+[50] Faction Standing: 0 (Hated)
+[51] Faction Flags: 16 (Peace)
+[51] Faction Standing: 0 (Hated)
+[52] Faction Flags: 2 (AtWar)
+[52] Faction Standing: 0 (Hated)
+[53] Faction Flags: 16 (Peace)
+[53] Faction Standing: 0 (Hated)
+[54] Faction Flags: 2 (AtWar)
+[54] Faction Standing: 0 (Hated)
+[55] Faction Flags: 0 (None)
+[55] Faction Standing: 0 (Hated)
+[56] Faction Flags: 0 (None)
+[56] Faction Standing: 0 (Hated)
+[57] Faction Flags: 0 (None)
+[57] Faction Standing: 0 (Hated)
+[58] Faction Flags: 0 (None)
+[58] Faction Standing: 0 (Hated)
+[59] Faction Flags: 0 (None)
+[59] Faction Standing: 0 (Hated)
+[60] Faction Flags: 0 (None)
+[60] Faction Standing: 0 (Hated)
+[61] Faction Flags: 0 (None)
+[61] Faction Standing: 0 (Hated)
+[62] Faction Flags: 0 (None)
+[62] Faction Standing: 0 (Hated)
+[63] Faction Flags: 0 (None)
+[63] Faction Standing: 0 (Hated)
+
+ServerToClient: SMSG_INIT_WORLD_STATES (0x02C2) Length: 438 ConnIdx: 0 Time: 01/01/1970 00:00:32.000 Number: 31
+Map ID: 1 (1)
+Field Count: 108
+[0] Field: 1794 - Value: 0
+[1] Field: 1376 - Value: 0
+[2] Field: 1375 - Value: 0
+[3] Field: 1374 - Value: 0
+[4] Field: 1373 - Value: 0
+[5] Field: 1372 - Value: 0
+[6] Field: 1371 - Value: 0
+[7] Field: 1370 - Value: 0
+[8] Field: 1369 - Value: 0
+[9] Field: 1368 - Value: 0
+[10] Field: 1367 - Value: 0
+[11] Field: 1366 - Value: 0
+[12] Field: 1365 - Value: 0
+[13] Field: 1364 - Value: 1
+[14] Field: 1363 - Value: 1
+[15] Field: 1362 - Value: 1
+[16] Field: 1361 - Value: 1
+[17] Field: 1359 - Value: 0
+[18] Field: 1358 - Value: 0
+[19] Field: 1357 - Value: 1
+[20] Field: 1356 - Value: 0
+[21] Field: 1355 - Value: 0
+[22] Field: 1349 - Value: 0
+[23] Field: 1347 - Value: 1
+[24] Field: 1346 - Value: 0
+[25] Field: 1344 - Value: 0
+[26] Field: 1343 - Value: 0
+[27] Field: 1342 - Value: 0
+[28] Field: 1341 - Value: 0
+[29] Field: 1340 - Value: 0
+[30] Field: 1339 - Value: 0
+[31] Field: 1338 - Value: 1
+[32] Field: 1337 - Value: 0
+[33] Field: 1336 - Value: 0
+[34] Field: 1335 - Value: 0
+[35] Field: 1332 - Value: 0
+[36] Field: 1331 - Value: 0
+[37] Field: 1328 - Value: 0
+[38] Field: 1327 - Value: 0
+[39] Field: 1325 - Value: 1
+[40] Field: 1302 - Value: 1
+[41] Field: 1301 - Value: 0
+[42] Field: 950 - Value: 0
+[43] Field: 1861 - Value: 2
+[44] Field: 1846 - Value: 1
+[45] Field: 1845 - Value: 1
+[46] Field: 1844 - Value: 1
+[47] Field: 1843 - Value: 1
+[48] Field: 1842 - Value: 1
+[49] Field: 1793 - Value: 0
+[50] Field: 1792 - Value: 0
+[51] Field: 1790 - Value: 0
+[52] Field: 1789 - Value: 0
+[53] Field: 1788 - Value: 0
+[54] Field: 1787 - Value: 0
+[55] Field: 1784 - Value: 0
+[56] Field: 1783 - Value: 0
+[57] Field: 1782 - Value: 0
+[58] Field: 1780 - Value: 2000
+[59] Field: 1778 - Value: 0
+[60] Field: 1776 - Value: 0
+[61] Field: 1775 - Value: 0
+[62] Field: 1772 - Value: 0
+[63] Field: 1770 - Value: 0
+[64] Field: 1769 - Value: 0
+[65] Field: 1768 - Value: 0
+[66] Field: 1767 - Value: 0
+[67] Field: 1304 - Value: 0
+[68] Field: 1303 - Value: 0
+[69] Field: 1795 - Value: 0
+[70] Field: 1785 - Value: 0
+[71] Field: 1779 - Value: 0
+[72] Field: 1777 - Value: 0
+[73] Field: 1774 - Value: 0
+[74] Field: 1773 - Value: 0
+[75] Field: 1393 - Value: 0
+[76] Field: 1392 - Value: 0
+[77] Field: 1383 - Value: 1
+[78] Field: 1382 - Value: 1
+[79] Field: 1360 - Value: 1
+[80] Field: 1348 - Value: 0
+[81] Field: 1334 - Value: 0
+[82] Field: 1333 - Value: 1
+[83] Field: 1966 - Value: 1
+[84] Field: 1330 - Value: 1
+[85] Field: 1329 - Value: 0
+[86] Field: 1326 - Value: 0
+[87] Field: 966 - Value: 0
+[88] Field: 964 - Value: 0
+[89] Field: 962 - Value: 0
+[90] Field: 1960 - Value: 0
+[91] Field: 1955 - Value: 9999
+[92] Field: 1396 - Value: 0
+[93] Field: 1395 - Value: 0
+[94] Field: 1394 - Value: 0
+[95] Field: 1391 - Value: 0
+[96] Field: 1390 - Value: 0
+[97] Field: 1389 - Value: 0
+[98] Field: 1388 - Value: 0
+[99] Field: 1387 - Value: 0
+[100] Field: 1386 - Value: 1
+[101] Field: 1385 - Value: 1
+[102] Field: 1384 - Value: 1
+[103] Field: 1381 - Value: 0
+[104] Field: 1380 - Value: 0
+[105] Field: 1379 - Value: 0
+[106] Field: 1378 - Value: 0
+[107] Field: 1377 - Value: 0
+
+ServerToClient: SMSG_CAST_FAILED (0x0130) Length: 6 ConnIdx: 0 Time: 01/01/1970 00:00:33.000 Number: 32
+Spell ID: 836 (836)
+Status: 2
+Reason: 18
+
+ServerToClient: SMSG_LOGIN_SET_TIME_SPEED (0x0042) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:34.000 Number: 33
+Game Time: 01/05/2006 16:58:00
+New Speed: 0.01666667
+
+ServerToClient: SMSG_COMPRESSED_UPDATE_OBJECT (0x01F6) Length: 486 ConnIdx: 0 Time: 01/01/1970 00:00:35.000 Number: 34
+Count: 1
+Has Transport: false
+[0] UpdateType: CreateObject1
+[0] GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+[0] Object Type: 4 (Player)
+[0] Update Flags: 113 (Self, LowGuid, Living, StationaryObject)
+[0] Movement Flags: 8192 (Falling)
+[0] Time: 2605363964
+[0] Position: X: 8438.17 Y: 1929.662 Z: 0
+[0] Orientation: 0.4377275
+[0] Jump Fall Time: 0
+[0] Jump Vertical Speed: 0
+[0] Jump Sin Angle: 0.9057173
+[0] Jump Cos Angle: 0.4238824
+[0] Jump Horizontal Speed: 0
+[0] Walk Speed: 2.5
+[0] Run Speed: 7
+[0] RunBack Speed: 4.5
+[0] Swim Speed: 4.722222
+[0] SwimBack Speed: 2.5
+[0] Turn Speed: 3.141593
+[0] Low GUID: 1789445260
+[0] OBJECT_FIELD_GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+[0] OBJECT_FIELD_TYPE: 25
+[0] OBJECT_FIELD_SCALE_X: 1
+[0] UNIT_FIELD_HEALTH: 1
+[0] UNIT_FIELD_MAXHEALTH: 50
+[0] UNIT_FIELD_MAXPOWER2: 1000/1.401298E-42
+[0] UNIT_FIELD_MAXPOWER3: 100/1.401298E-43
+[0] UNIT_FIELD_MAXPOWER4: 100/1.401298E-43
+[0] UNIT_FIELD_LEVEL: 1
+[0] UNIT_FIELD_FACTIONTEMPLATE: 4/5.605194E-45 (4)
+[0] UNIT_FIELD_BYTES_0: 4/1/2/1
+[0] UNIT_FIELD_FLAGS: 8
+[0] UNIT_FIELD_AURA: 2457
+[0] UNIT_FIELD_AURA + 32: 8326
+[0] UNIT_FIELD_AURA + 33: 20584
+[0] UNIT_FIELD_AURAFLAGS: 9
+[0] UNIT_FIELD_AURAFLAGS + 4: 238
+[0] UNIT_FIELD_AURALEVELS: 1/0/0/0
+[0] UNIT_FIELD_BASEATTACKTIME: 2000
+[0] UNIT_FIELD_BASEATTACKTIME + 1: 2000
+[0] UNIT_FIELD_BOUNDINGRADIUS: 1
+[0] UNIT_FIELD_COMBATREACH: 1.5
+[0] UNIT_FIELD_DISPLAYID: 1825
+[0] UNIT_FIELD_NATIVEDISPLAYID: 55
+[0] UNIT_FIELD_MINDAMAGE: 1082729619/4.285715
+[0] UNIT_FIELD_MAXDAMAGE: 1082729619/4.285715
+[0] UNIT_FIELD_BYTES_1: 0/0/17/1
+[0] UNIT_FIELD_STAT0: 20/2.802597E-44
+[0] UNIT_FIELD_STAT1: 25/3.503246E-44
+[0] UNIT_FIELD_STAT2: 21/2.942727E-44
+[0] UNIT_FIELD_STAT3: 20/2.802597E-44
+[0] UNIT_FIELD_STAT4: 20/2.802597E-44
+[0] UNIT_FIELD_RESISTANCES: 50
+[0] UNIT_FIELD_RESISTANCES + 3: 10
+[0] UNIT_FIELD_BASE_HEALTH: 20
+[0] UNIT_FIELD_ATTACK_POWER: 23
+[0] UNIT_FIELD_RANGED_ATTACK_POWER: 31/4.344025E-44
+[0] PLAYER_FLAGS: 16/2.242078E-44
+[0] PLAYER_BYTES: 1/0/5/2
+[0] PLAYER_BYTES_2: 1/238/0/2
+[0] PLAYER_GUILD_TIMESTAMP: 4008636142/-3.697314E+28
+[0] PLAYER__FIELD_COMBO_TARGET: 4008636142/-3.697314E+28
+[0] PLAYER__FIELD_COMBO_TARGET + 1: 4008636142/-3.697314E+28
+[0] PLAYER_XP: 45/6.305843E-44
+[0] PLAYER_NEXT_LEVEL_XP: 400/5.605194E-43
+[0] PLAYER_SKILL_INFO_1_1: 415/5.815389E-43
+[0] PLAYER_SKILL_INFO_1_1 + 1: 65537/9.18369E-41
+[0] PLAYER_SKILL_INFO_1_1 + 3: 256/3.587324E-43
+[0] PLAYER_SKILL_INFO_1_1 + 4: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 6: 673/9.430739E-43
+[0] PLAYER_SKILL_INFO_1_1 + 9: 95/1.331234E-43
+[0] PLAYER_SKILL_INFO_1_1 + 10: 327682/4.591803E-40
+[0] PLAYER_SKILL_INFO_1_1 + 12: 333/4.666324E-43
+[0] PLAYER_SKILL_INFO_1_1 + 15: 186/2.606415E-43
+[0] PLAYER_SKILL_INFO_1_1 + 18: 43/6.025583E-44
+[0] PLAYER_SKILL_INFO_1_1 + 19: 327681/4.591789E-40
+[0] PLAYER_SKILL_INFO_1_1 + 21: 148/2.073922E-43
+[0] PLAYER_SKILL_INFO_1_1 + 24: 150/2.101948E-43
+[0] PLAYER_SKILL_INFO_1_1 + 27: 164/2.298129E-43
+[0] PLAYER_SKILL_INFO_1_1 + 30: 172/2.410233E-43
+[0] PLAYER_SKILL_INFO_1_1 + 31: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 33: 173/2.424246E-43
+[0] PLAYER_SKILL_INFO_1_1 + 34: 327681/4.591789E-40
+[0] PLAYER_SKILL_INFO_1_1 + 36: 183/2.564376E-43
+[0] PLAYER_SKILL_INFO_1_1 + 37: 327685/4.591845E-40
+[0] PLAYER_SKILL_INFO_1_1 + 39: 197/2.760558E-43
+[0] PLAYER_SKILL_INFO_1_1 + 42: 226/3.166935E-43
+[0] PLAYER_SKILL_INFO_1_1 + 43: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 45: 393/5.507103E-43
+[0] PLAYER_SKILL_INFO_1_1 + 48: 109/1.527415E-43
+[0] PLAYER_SKILL_INFO_1_1 + 51: 433/6.067622E-43
+[0] PLAYER_SKILL_INFO_1_1 + 52: 65537/9.18369E-41
+[0] PLAYER_SKILL_INFO_1_1 + 54: 137/1.919779E-43
+[0] PLAYER_SKILL_INFO_1_1 + 57: 473/6.628142E-43
+[0] PLAYER_SKILL_INFO_1_1 + 58: 65536/9.18355E-41
+[0] PLAYER_SKILL_INFO_1_1 + 60: 140/1.961818E-43
+[0] PLAYER_SKILL_INFO_1_1 + 63: 149/2.087935E-43
+[0] PLAYER_SKILL_INFO_1_1 + 66: 55/7.707142E-44
+[0] PLAYER_SKILL_INFO_1_1 + 67: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 69: 713/9.991258E-43
+[0] PLAYER_SKILL_INFO_1_1 + 72: 176/2.466285E-43
+[0] PLAYER_SKILL_INFO_1_1 + 73: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 75: 26/3.643376E-44
+[0] PLAYER_SKILL_INFO_1_1 + 76: 327685/4.591845E-40
+[0] PLAYER_SKILL_INFO_1_1 + 78: 44/6.165713E-44
+[0] PLAYER_SKILL_INFO_1_1 + 79: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 81: 111/1.555441E-43
+[0] PLAYER_SKILL_INFO_1_1 + 84: 113/1.583467E-43
+[0] PLAYER_SKILL_INFO_1_1 + 85: 19661100/3.159225E-38
+[0] PLAYER_SKILL_INFO_1_1 + 87: 115/1.611493E-43
+[0] PLAYER_SKILL_INFO_1_1 + 90: 118/1.653532E-43
+[0] PLAYER_SKILL_INFO_1_1 + 93: 136/1.905766E-43
+[0] PLAYER_SKILL_INFO_1_1 + 94: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 96: 138/1.933792E-43
+[0] PLAYER_SKILL_INFO_1_1 + 99: 141/1.975831E-43
+[0] PLAYER_SKILL_INFO_1_1 + 102: 142/1.989844E-43
+[0] PLAYER_SKILL_INFO_1_1 + 103: 65536/9.18355E-41
+[0] PLAYER_SKILL_INFO_1_1 + 105: 229/3.208973E-43
+[0] PLAYER_SKILL_INFO_1_1 + 108: 257/3.601337E-43
+[0] PLAYER_SKILL_INFO_1_1 + 109: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 111: 293/4.105805E-43
+[0] PLAYER_SKILL_INFO_1_1 + 114: 98/1.373272E-43
+[0] PLAYER_SKILL_INFO_1_1 + 115: 19661100/3.159225E-38
+[0] PLAYER_SKILL_INFO_1_1 + 117: 315/4.41409E-43
+[0] PLAYER_SKILL_INFO_1_1 + 120: 139/1.947805E-43
+[0] PLAYER_SKILL_INFO_1_1 + 123: 152/2.129974E-43
+[0] PLAYER_SKILL_INFO_1_1 + 126: 165/2.312142E-43
+[0] PLAYER_SKILL_INFO_1_1 + 129: 160/2.242078E-43
+[0] PLAYER_SKILL_INFO_1_1 + 130: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 132: 313/4.386064E-43
+[0] PLAYER_SKILL_INFO_1_1 + 135: 413/5.787363E-43
+[0] PLAYER_SKILL_INFO_1_1 + 136: 65537/9.18369E-41
+[0] PLAYER_SKILL_INFO_1_1 + 138: 414/5.801376E-43
+[0] PLAYER_SKILL_INFO_1_1 + 139: 65537/9.18369E-41
+[0] PLAYER_SKILL_INFO_1_1 + 141: 45/6.305843E-44
+[0] PLAYER_SKILL_INFO_1_1 + 142: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 144: 46/6.445973E-44
+[0] PLAYER_SKILL_INFO_1_1 + 145: 327680/4.591775E-40
+[0] PLAYER_SKILL_INFO_1_1 + 147: 533/7.468921E-43
+[0] PLAYER_SKILL_INFO_1_1 + 150: 554/7.763193E-43
+[0] PLAYER_SKILL_INFO_1_1 + 153: 202/2.830623E-43
+[0] PLAYER_SKILL_INFO_1_1 + 156: 356/4.988623E-43
+[0] PLAYER_SKILL_INFO_1_1 + 159: 171/2.39622E-43
+[0] PLAYER_SKILL_INFO_1_1 + 162: 54/7.567012E-44
+[0] PLAYER_SKILL_INFO_1_1 + 163: 327681/4.591789E-40
+[0] PLAYER_SKILL_INFO_1_1 + 165: 182/2.550363E-43
+[0] PLAYER_SKILL_INFO_1_1 + 168: 129/1.807675E-43
+[0] PLAYER_SKILL_INFO_1_1 + 171: 185/2.592402E-43
+[0] PLAYER_SKILL_INFO_1_1 + 174: 126/1.765636E-43
+[0] PLAYER_SKILL_INFO_1_1 + 175: 327685/4.591845E-40
+[0] PLAYER_SKILL_INFO_1_1 + 177: 162/2.270104E-43
+[0] PLAYER_SKILL_INFO_1_1 + 178: 327681/4.591789E-40
+[0] PLAYER_CHARACTER_POINTS2: 2/2.802597E-45
+[0] PLAYER_BLOCK_PERCENTAGE: 1083975926/4.88
+[0] PLAYER_DODGE_PERCENTAGE: 1088694517/7.13
+[0] PLAYER_PARRY_PERCENTAGE: 1083975926/4.88
+[0] PLAYER_CRIT_PERCENTAGE: 1086513479/6.09
+[0] PLAYER_RANGED_CRIT_PERCENTAGE: 1086513479/6.09
+[0] PLAYER_EXPLORED_ZONES_1 + 6: 268435456/2.524355E-29
+[0] PLAYER_EXPLORED_ZONES_1 + 17: 131072/1.83671E-40
+[0] PLAYER_EXPLORED_ZONES_1 + 19: 16384/2.295887E-41
+[0] PLAYER_FIELD_MOD_DAMAGE_DONE_PCT: 1065353216/1
+[0] PLAYER_FIELD_MOD_DAMAGE_DONE_PCT + 1: 1065353216/1
+[0] PLAYER_FIELD_MOD_DAMAGE_DONE_PCT + 2: 1065353216/1
+[0] PLAYER_FIELD_MOD_DAMAGE_DONE_PCT + 3: 1065353216/1
+[0] PLAYER_FIELD_MOD_DAMAGE_DONE_PCT + 4: 1065353216/1
+[0] PLAYER_FIELD_MOD_DAMAGE_DONE_PCT + 5: 1065353216/1
+[0] PLAYER_FIELD_MOD_DAMAGE_DONE_PCT + 6: 1065353216/1
+[0] PLAYER_FIELD_BYTES2: 0/238/238/238
+
+ClientToServer: CMSG_NAME_QUERY (0x0050) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:36.000 Number: 35
+GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+
+ClientToServer: CMSG_SET_ACTIVE_MOVER (0x026A) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:37.000 Number: 36
+GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+
+ClientToServer: CMSG_GM_TICKET_GET_TICKET (0x0211) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:38.000 Number: 37
+
+ClientToServer: CMSG_REQUEST_PLAYED_TIME (0x01CC) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:39.000 Number: 38
+
+ServerToClient: SMSG_FORCE_RUN_SPEED_CHANGE (0x00E2) Length: 9 ConnIdx: 0 Time: 01/01/1970 00:00:40.000 Number: 39
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+New Speed: 10.5
+
+ServerToClient: SMSG_FORCE_SWIM_SPEED_CHANGE (0x00E6) Length: 9 ConnIdx: 0 Time: 01/01/1970 00:00:41.000 Number: 40
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+New Speed: 7.083333
+
+ServerToClient: SMSG_MOVE_SET_WATER_WALK (0x00DE) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:42.000 Number: 41
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+
+ServerToClient: SMSG_UPDATE_AURA_DURATION (0x0137) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:00:43.000 Number: 42
+Slot: 48
+Duration: 0
+
+ClientToServer: CMSG_QUERY_TIME (0x01CE) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:44.000 Number: 43
+
+ClientToServer: MSG_QUERY_NEXT_MAIL_TIME (0x0284) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:45.000 Number: 44
+
+ClientToServer: CMSG_BATTLEFIELD_STATUS (0x02D3) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:46.000 Number: 45
+
+ClientToServer: CMSG_MEETINGSTONE_INFO (0x0296) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:47.000 Number: 46
+
+ClientToServer: MSG_CORPSE_QUERY (0x0216) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:48.000 Number: 47
+
+ServerToClient: SMSG_QUERY_PLAYER_NAME_RESPONSE (0x0051) Length: 26 ConnIdx: 0 Time: 01/01/1970 00:00:49.000 Number: 48
+GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+Name: Xptoo
+Race: 4 (NightElf)
+Gender: 0 (Male)
+Class: 1 (Warrior)
+
+ServerToClient: SMSG_BATTLEFIELD_STATUS (0x02D4) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:50.000 Number: 49
+Queue Slot: 0
+Map Id: 0
+
+ClientToServer: CMSG_MOVE_TIME_SKIPPED (0x02CE) Length: 12 ConnIdx: 0 Time: 01/01/1970 00:00:51.000 Number: 50
+GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+Time: 94
+
+ServerToClient: SMSG_BATTLEFIELD_STATUS (0x02D4) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:52.000 Number: 51
+Queue Slot: 1
+Map Id: 0
+
+ServerToClient: SMSG_BATTLEFIELD_STATUS (0x02D4) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:53.000 Number: 52
+Queue Slot: 2
+Map Id: 0
+
+ClientToServer: CMSG_FORCE_RUN_SPEED_CHANGE_ACK (0x00E3) Length: 56 ConnIdx: 0 Time: 01/01/1970 00:00:54.000 Number: 53
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+Movement Flags: 8396800 (Falling, CanFly)
+Time: 75640150
+Position: X: 8438.17 Y: 1929.662 Z: -2.040999
+Orientation: 0.4377275
+Jump Fall Time: 460
+Jump Vertical Speed: 0
+Jump Sin Angle: 0.9057173
+Jump Cos Angle: 0.4238824
+Jump Horizontal Speed: 0
+New Speed: 10.5
+
+ServerToClient: SMSG_GM_TICKET_GET_TICKET (0x0212) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:55.000 Number: 54
+TicketStatus: 10 (NoText)
+
+ClientToServer: CMSG_FORCE_SWIM_SPEED_CHANGE_ACK (0x00E7) Length: 56 ConnIdx: 0 Time: 01/01/1970 00:00:56.000 Number: 55
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+Movement Flags: 8396800 (Falling, CanFly)
+Time: 75640150
+Position: X: 8438.17 Y: 1929.662 Z: -2.040999
+Orientation: 0.4377275
+Jump Fall Time: 460
+Jump Vertical Speed: 0
+Jump Sin Angle: 0.9057173
+Jump Cos Angle: 0.4238824
+Jump Horizontal Speed: 0
+New Speed: 7.083333
+
+ServerToClient: SMSG_PLAYED_TIME (0x01CD) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:00:57.000 Number: 56
+Time Played: 1026
+Total: 1026
+
+ServerToClient: SMSG_QUERY_TIME_RESPONSE (0x01CF) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:58.000 Number: 57
+Current Time: 01/05/2006 15:58:50
+
+ServerToClient: SMSG_COMPRESSED_UPDATE_OBJECT (0x01F6) Length: 40 ConnIdx: 0 Time: 01/01/1970 00:00:59.000 Number: 58
+Count: 1
+Has Transport: false
+[0] UpdateType: Values
+[0] GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+[0] UNIT_FIELD_AURA + 48: 5301
+[0] UNIT_FIELD_AURAFLAGS + 6: 8
+
+ServerToClient: MSG_QUERY_NEXT_MAIL_TIME (0x0284) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:01:00.000 Number: 59
+Time since last time visiting a mailbox (can be < 0.0): -86400
+
+ClientToServer: CMSG_MOVE_WATER_WALK_ACK (0x02D0) Length: 56 ConnIdx: 0 Time: 01/01/1970 00:01:01.000 Number: 60
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+Movement Flags: 276832256 (Falling, CanFly, Waterwalking)
+Time: 75640150
+Position: X: 8438.17 Y: 1929.662 Z: -2.040999
+Orientation: 0.4377275
+Jump Fall Time: 460
+Jump Vertical Speed: 0
+Jump Sin Angle: 0.9057173
+Jump Cos Angle: 0.4238824
+Jump Horizontal Speed: 0
+Apply: 1065353216
+
+ServerToClient: MSG_CORPSE_QUERY (0x0216) Length: 21 ConnIdx: 0 Time: 01/01/1970 00:01:02.000 Number: 61
+Corpse Found: true
+Map ID: 1 (1)
+Corpse Position: X: 10036.07 Y: 1641.077 Z: 1323.855
+Corpse Map ID: 1 (1)
+
+ServerToClient: SMSG_MEETINGSTONE_SETQUEUE (0x0295) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:01:03.000 Number: 62
+|-------------------------------------------------|---------------------------------|
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
+|-------------------------------------------------|---------------------------------|
+| 00 00 00 00 05                                  | . . . . .                       |
+|-------------------------------------------------|---------------------------------|
+
+ClientToServer: MSG_MOVE_START_SWIM (0x00CA) Length: 32 ConnIdx: 0 Time: 01/01/1970 00:01:04.000 Number: 63
+Movement Flags: 278921216 (Swimming, CanFly, Waterwalking)
+Time: 75640162
+Position: X: 8438.17 Y: 1929.662 Z: -2.148875
+Orientation: 0.4377275
+Swim Pitch: 0
+Jump Fall Time: 472
+
+ClientToServer: CMSG_ZONEUPDATE (0x01F4) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:01:05.000 Number: 64
+Zone Id: 141 (141)
+
+ClientToServer: CMSG_CHAT_JOIN_CHANNEL (0x0097) Length: 22 ConnIdx: 0 Time: 01/01/1970 00:01:06.000 Number: 65
+Channel Name: General - Teldrassil
+Channel Pass: 
+
+ClientToServer: CMSG_CHAT_JOIN_CHANNEL (0x0097) Length: 27 ConnIdx: 0 Time: 01/01/1970 00:01:07.000 Number: 66
+Channel Name: LocalDefense - Teldrassil
+Channel Pass: 
+
+ClientToServer: CMSG_CHAT_JOIN_CHANNEL (0x0097) Length: 30 ConnIdx: 0 Time: 01/01/1970 00:01:08.000 Number: 67
+Channel Name: LookingForGroup - Teldrassil
+Channel Pass: 
+
+ServerToClient: SMSG_CHANNEL_NOTIFY (0x0099) Length: 30 ConnIdx: 0 Time: 01/01/1970 00:01:09.000 Number: 68
+Notification Type: 2 (YouJoined)
+Channel Name: General - Teldrassil
+Flags: 1 (Custom)
+Channel Id: 0
+
+ServerToClient: SMSG_CHANNEL_NOTIFY (0x0099) Length: 35 ConnIdx: 0 Time: 01/01/1970 00:01:10.000 Number: 69
+Notification Type: 2 (YouJoined)
+Channel Name: LocalDefense - Teldrassil
+Flags: 22 (Unknown1, Trade, General)
+Channel Id: 0
+
+ServerToClient: SMSG_CHANNEL_NOTIFY (0x0099) Length: 38 ConnIdx: 0 Time: 01/01/1970 00:01:11.000 Number: 70
+Notification Type: 2 (YouJoined)
+Channel Name: LookingForGroup - Teldrassil
+Flags: 24 (NotLfg, General)
+Channel Id: 0
+
+ClientToServer: CMSG_LOGOUT_REQUEST (0x004B) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:01:12.000 Number: 71
+
+ServerToClient: SMSG_LOGOUT_RESPONSE (0x004C) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:01:13.000 Number: 72
+Reason: 0
+Instant: false
+
+ServerToClient: SMSG_FORCE_MOVE_ROOT (0x00E8) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:01:14.000 Number: 73
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+
+ServerToClient: SMSG_COMPRESSED_UPDATE_OBJECT (0x01F6) Length: 38 ConnIdx: 0 Time: 01/01/1970 00:01:15.000 Number: 74
+Count: 1
+Has Transport: false
+[0] UpdateType: Values
+[0] GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+[0] UNIT_FIELD_FLAGS: 262152
+[0] PLAYER_FIELD_BYTES: 4/0/0/0
+
+ClientToServer: CMSG_FORCE_MOVE_ROOT_ACK (0x00E9) Length: 40 ConnIdx: 0 Time: 01/01/1970 00:01:16.000 Number: 75
+Guid: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+Movement Flags: 270532608 (Swimming, Waterwalking)
+Time: 75644590
+Position: X: 8438.17 Y: 1929.662 Z: -2.148875
+Orientation: 0.4377275
+Swim Pitch: 0
+Jump Fall Time: 472
+
+ClientToServer: CMSG_PING (0x01DC) Length: 8 ConnIdx: 0 Time: 01/01/1970 00:01:17.000 Number: 76
+Ping: 2
+Ping Count: 0
+
+ServerToClient: SMSG_PONG (0x01DD) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:01:18.000 Number: 77
+Ping: 2
+
+ServerToClient: SMSG_LOGOUT_COMPLETE (0x004D) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:01:19.000 Number: 78
+
+ClientToServer: CMSG_CANCEL_TRADE (0x011C) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:01:20.000 Number: 79
+
+ClientToServer: CMSG_CANCEL_TRADE (0x011C) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:01:21.000 Number: 80
+
+ClientToServer: CMSG_ENUM_CHARACTERS (0x0037) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:01:22.000 Number: 81
+
+ServerToClient: SMSG_ENUM_CHARACTERS_RESULT (0x003B) Length: 334 ConnIdx: 0 Time: 01/01/1970 00:01:23.000 Number: 82
+Count: 2
+GUID: Full: 0x01326C5F Type: Player Low: 20081759 Name: Corruption
+Name: Corruption
+Race: 4 (NightElf)
+Class: 5 (Priest)
+Gender: 1 (Female)
+Skin: 7
+Face: 8
+Hair Style: 0
+Hair Color: 4
+Facial Hair: 4
+Level: 9
+Zone Id: 148 (148)
+Map Id: 1 (1)
+Position: X: 6543.387 Y: 929.6213 Z: 5.922288
+Guild Id: 0
+Character Flags: 524288 (Unknown17)
+First Login: true
+Pet Display Id: 0
+Pet Level: 0
+Pet Family: 0 (None)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 9944
+Equip Inventory Type: 4 (Body)
+Equip Display Id: 27472
+Equip Inventory Type: 20 (Robe)
+Equip Display Id: 16663
+Equip Inventory Type: 6 (Waist)
+Equip Display Id: 20210
+Equip Inventory Type: 7 (Legs)
+Equip Display Id: 16659
+Equip Inventory Type: 8 (Feet)
+Equip Display Id: 16664
+Equip Inventory Type: 9 (Wrists)
+Equip Display Id: 16817
+Equip Inventory Type: 10 (Hands)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 15164
+Equip Inventory Type: 16 (Cloak)
+Equip Display Id: 19782
+Equip Inventory Type: 21 (MainHandWeapon)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Bag Display Id: 0
+Bag Inventory Type: 0 (NonEquip)
+GUID: Full: 0x0140E1B4 Type: Player Low: 21029300 Name: Xptoo
+Name: Xptoo
+Race: 4 (NightElf)
+Class: 1 (Warrior)
+Gender: 0 (Male)
+Skin: 1
+Face: 0
+Hair Style: 5
+Hair Color: 2
+Facial Hair: 1
+Level: 1
+Zone Id: 141 (141)
+Map Id: 1 (1)
+Position: X: 8438.17 Y: 1929.662 Z: -2.148875
+Guild Id: 0
+Character Flags: 532480 (Ghost, Unknown17)
+First Login: true
+Pet Display Id: 0
+Pet Level: 0
+Pet Family: 0 (None)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Equip Display Id: 0
+Equip Inventory Type: 0 (NonEquip)
+Bag Display Id: 0
+Bag Inventory Type: 0 (NonEquip)
+
