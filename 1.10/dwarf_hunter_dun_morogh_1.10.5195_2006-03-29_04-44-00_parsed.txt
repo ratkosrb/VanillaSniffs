@@ -3,7 +3,7 @@
 # Detected build: V1_10_0_5195
 # Detected locale: enUS
 # Targeted database: Zero
-# Parsing date: 10/05/2024 09:06:10
+# Parsing date: 10/05/2024 12:34:16
 
 ServerToClient: SMSG_AUTH_CHALLENGE (0x01EC) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:01.000 Number: 0
 Server Seed: 2055587454
@@ -17,45 +17,45 @@ Proof SHA-1 Hash: 5063BD6AAE5466B7E9EFE7F1486875DF6B9A5DD6
 Unknown1: 10
 Unknown2: 724257835
 Name: Blizzard_AuctionUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_BattlefieldMinimap
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_BindingUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_CraftUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_InspectUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_MacroUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_RaidUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_TalentUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_TradeSkillUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 Name: Blizzard_TrainerUI
-Enabled: true
-CRC: 1276933997
-Unk Int32: 0
+Uses public key: true
+Public key CRC: 1276933997
+URL file CRC: 0
 
 ServerToClient: SMSG_AUTH_RESPONSE (0x01EE) Length: 10 ConnIdx: 0 Time: 01/01/1970 00:00:03.000 Number: 2
 Auth Code: 12 (AUTH_OK)
@@ -182,8 +182,6 @@ Bag Display Id: 0
 Bag Inventory Type: 0 (NonEquip)
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 37 ConnIdx: 0 Time: 01/01/1970 00:00:07.000 Number: 6
-Warden Server Opcode: 231 (231)
-Packet not fully read! Current position: 0 Length: 37 Bytes remaining: 37.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -193,11 +191,13 @@ Packet not fully read! Current position: 0 Length: 37 Bytes remaining: 37.
 |-------------------------------------------------|---------------------------------|
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 1 ConnIdx: 0 Time: 01/01/1970 00:00:08.000 Number: 7
-Warden Client Opcode: 109 (109)
+|-------------------------------------------------|---------------------------------|
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
+|-------------------------------------------------|---------------------------------|
+| 6D                                              | m                               |
+|-------------------------------------------------|---------------------------------|
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:00:09.000 Number: 8
-Warden Server Opcode: 212 (212)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -216,8 +216,6 @@ Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:00:10.000 Number: 9
-Warden Client Opcode: 162 (162)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -249,8 +247,6 @@ ServerToClient: SMSG_CREATE_CHAR (0x003A) Length: 1 ConnIdx: 0 Time: 01/01/1970 
 Response: 49 (CHAR_CREATE_FAILED)
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:00:13.000 Number: 12
-Warden Server Opcode: 70 (70)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -269,8 +265,6 @@ Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:00:14.000 Number: 13
-Warden Client Opcode: 46 (46)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -2881,8 +2875,6 @@ GUID: Full: 0xF000100000008A81 Type: DynamicObject Low: 17592186079873
 Status: 0 (None)
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:01:36.000 Number: 95
-Warden Server Opcode: 64 (64)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -2901,8 +2893,6 @@ Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:01:37.000 Number: 96
-Warden Client Opcode: 162 (162)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -5628,8 +5618,6 @@ Has Transport: false
 [0] [0] Object GUID: Full: 0x0009B03A Type: Player Low: 634938 Name: Sorlin
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:03:43.000 Number: 222
-Warden Server Opcode: 90 (90)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -5929,8 +5917,6 @@ Orientation: 0.9581814
 Jump Fall Time: 483
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:04:11.000 Number: 250
-Warden Client Opcode: 210 (210)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -7026,8 +7012,6 @@ Orientation: 3.165933
 Jump Fall Time: 1006
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:06:00.000 Number: 359
-Warden Server Opcode: 42 (42)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -7046,8 +7030,6 @@ Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:06:01.000 Number: 360
-Warden Client Opcode: 168 (168)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -8125,8 +8107,6 @@ Waypoints: 1
 Waypoint Endpoint: X: -6239.954 Y: 338.099 Z: 383.0033
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:07:17.000 Number: 436
-Warden Server Opcode: 79 (79)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -8556,8 +8536,6 @@ Waypoints: 1
 Waypoint Endpoint: X: -6150.042 Y: 283.7647 Z: 395.1891
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:07:47.000 Number: 466
-Warden Client Opcode: 100 (100)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -9487,8 +9465,6 @@ Orientation: 6.173228
 Jump Fall Time: 0
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:09:13.000 Number: 552
-Warden Server Opcode: 221 (221)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -9962,8 +9938,6 @@ Orientation: 6.008296
 Jump Fall Time: 0
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:09:51.000 Number: 590
-Warden Client Opcode: 201 (201)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -11593,8 +11567,6 @@ Has Transport: false
 [0] UNIT_FIELD_HEALTH: 40
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:11:42.000 Number: 701
-Warden Server Opcode: 16 (16)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -11623,8 +11595,6 @@ Waypoints: 1
 Waypoint Endpoint: X: -6238.359 Y: 335.8476 Z: 383.1283
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:11:44.000 Number: 703
-Warden Client Opcode: 17 (17)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -14515,8 +14485,6 @@ Orientation: 1.680749
 Jump Fall Time: 0
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:14:39.000 Number: 878
-Warden Server Opcode: 22 (22)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -14543,8 +14511,6 @@ Orientation: 3.231121
 Jump Fall Time: 1318
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:14:41.000 Number: 880
-Warden Client Opcode: 151 (151)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -18298,8 +18264,6 @@ Orientation: 2.010619
 Jump Fall Time: 0
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:19:22.000 Number: 1161
-Warden Server Opcode: 177 (177)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -18363,8 +18327,6 @@ Orientation: 2.030254
 Jump Fall Time: 0
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:19:28.000 Number: 1167
-Warden Client Opcode: 222 (222)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -21854,8 +21816,6 @@ Waypoints: 1
 Waypoint Endpoint: X: -6355.438 Y: 356.0937 Z: 378.3105
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:24:06.000 Number: 1445
-Warden Server Opcode: 55 (55)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -21908,8 +21868,6 @@ Melee Spell ID : 0 (0)
 Block Amount: 0
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:24:10.000 Number: 1449
-Warden Client Opcode: 6 (6)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -27083,8 +27041,6 @@ Orientation: 5.256667
 Jump Fall Time: 846
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:29:40.000 Number: 1779
-Warden Server Opcode: 134 (134)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -27166,8 +27122,6 @@ Orientation: 5.256667
 Jump Fall Time: 846
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:29:47.000 Number: 1786
-Warden Client Opcode: 188 (188)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -32274,8 +32228,6 @@ Has Transport: false
 [7] UNIT_FIELD_BYTES_2: 1/0/0/0
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:36:19.000 Number: 2178
-Warden Server Opcode: 28 (28)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -32366,8 +32318,6 @@ Orientation: 0.7013376
 Jump Fall Time: 832
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:36:28.000 Number: 2187
-Warden Client Opcode: 36 (36)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -35425,8 +35375,6 @@ HitType: 5 (CritDebug, HitDebug)
 Debug output: false
 
 ServerToClient: SMSG_WARDEN_DATA (0x02E6) Length: 185 ConnIdx: 0 Time: 01/01/1970 00:41:23.000 Number: 2482
-Warden Server Opcode: 51 (51)
-Packet not fully read! Current position: 0 Length: 185 Bytes remaining: 185.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
@@ -35478,8 +35426,6 @@ GUID: Full: 0xF000100000029644 Type: DynamicObject Low: 17592186213956
 Reaction: 2 (Hostile)
 
 ClientToServer: CMSG_WARDEN_DATA (0x02E7) Length: 147 ConnIdx: 0 Time: 01/01/1970 00:41:28.000 Number: 2487
-Warden Client Opcode: 175 (175)
-Packet not fully read! Current position: 1 Length: 147 Bytes remaining: 146.
 |-------------------------------------------------|---------------------------------|
 | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
 |-------------------------------------------------|---------------------------------|
