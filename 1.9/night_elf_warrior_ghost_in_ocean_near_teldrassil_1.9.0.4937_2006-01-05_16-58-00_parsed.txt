@@ -2,8 +2,8 @@
 # File name: night_elf_warrior_ghost_in_ocean_near_teldrassil_1.9.0.4937_2006-01-05_16-58-00.pkt
 # Detected build: V1_9_0_4937
 # Detected locale: enUS
-# Targeted database: Classic
-# Parsing date: 10/07/2023 12:00:26
+# Targeted database: Zero
+# Parsing date: 10/05/2024 09:05:48
 
 ClientToServer: CMSG_ENUM_CHARACTERS (0x0037) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:01.000 Number: 0
 
@@ -488,11 +488,7 @@ ServerToClient: SMSG_IGNORE_LIST (0x006B) Length: 1 ConnIdx: 0 Time: 01/01/1970 
 Count: 0
 
 ServerToClient: SMSG_SET_REST_START (0x021E) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:10.000 Number: 9
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| 39 00 00 00                                     | 9 . . .                         |
-|-------------------------------------------------|---------------------------------|
+RestedTime: 57
 
 ServerToClient: SMSG_BIND_POINT_UPDATE (0x0155) Length: 20 ConnIdx: 0 Time: 01/01/1970 00:00:11.000 Number: 10
 Position: X: 10311.3 Y: 831.463 Z: 1326.41
@@ -1260,11 +1256,8 @@ Corpse Position: X: 10036.07 Y: 1641.077 Z: 1323.855
 Corpse Map ID: 1 (1)
 
 ServerToClient: SMSG_MEETINGSTONE_SETQUEUE (0x0295) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:01:03.000 Number: 62
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| 00 00 00 00 05                                  | . . . . .                       |
-|-------------------------------------------------|---------------------------------|
+AreaId: 0
+Status: 5
 
 ClientToServer: MSG_MOVE_START_SWIM (0x00CA) Length: 32 ConnIdx: 0 Time: 01/01/1970 00:01:04.000 Number: 63
 Movement Flags: 278921216 (Swimming, CanFly, Waterwalking)

@@ -2,8 +2,8 @@
 # File name: human_priest_elwynn_forest_1.10.5195_2006-03-29_22-50-00.pkt
 # Detected build: V1_10_0_5195
 # Detected locale: enUS
-# Targeted database: Classic
-# Parsing date: 10/18/2023 13:09:32
+# Targeted database: Zero
+# Parsing date: 10/05/2024 09:07:09
 
 ServerToClient: SMSG_AUTH_CHALLENGE (0x01EC) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:01.000 Number: 0
 Server Seed: 1018704077
@@ -14,8 +14,9 @@ Unk Int32 1: 0
 Account: WOWD13
 Client Seed: 1168525030
 Proof SHA-1 Hash: EC4A9757D539762CAA63F7C8AA0DC449FCA5F75A
-Name: 
-+L++Blizzard_AuctionUI
+Unknown1: 10
+Unknown2: 724257835
+Name: Blizzard_AuctionUI
 Enabled: true
 CRC: 1276933997
 Unk Int32: 0
@@ -63,17 +64,57 @@ Billing Flags: 68 (Trial1, Restricted)
 Billing Time Rested: 0
 
 ServerToClient: SMSG_ADDON_INFO (0x02EF) Length: 81 ConnIdx: 0 Time: 01/01/1970 00:00:04.000 Number: 3
-[0] Status: 0 (Banned)
+(WowDev) InfoProvided: false
+[0] Status: 2 (SecureHidden)
 [0] InfoProvided: true
-[0] KeyProvided: true
-KeyData: 000000000000020100000000000002010000000000000201000000000000020100000000000002010000000000000201000000000000020100000000000002010000000000000201000000000000
-System.IO.EndOfStreamException
-Unable to read beyond the end of the stream.
-   at System.IO.__Error.EndOfFile()
-   at System.IO.MemoryStream.InternalReadInt32()
-   at WowPacketParser.Misc.Packet.ReadInt32(String name, Object[] indexes) in C:\Users\ratko\Desktop\source\WowPacketParser\WowPacketParser\Misc\PacketReads.cs:line 375
-   at WowPacketParser.Parsing.Parsers.AddonHandler.HandleServerAddonsList(Packet packet) in C:\Users\ratko\Desktop\source\WowPacketParser\WowPacketParser\Parsing\Parsers\AddonHandler.cs:line 75
-   at WowPacketParser.Parsing.Handler.Parse(Packet packet, Boolean isMultiple) in C:\Users\ratko\Desktop\source\WowPacketParser\WowPacketParser\Parsing\Handler.cs:line 149
+[0] KeyProvided: false
+[0] Revision: 0
+[0] UrlProvided: false
+[1] Status: 2 (SecureHidden)
+[1] InfoProvided: true
+[1] KeyProvided: false
+[1] Revision: 0
+[1] UrlProvided: false
+[2] Status: 2 (SecureHidden)
+[2] InfoProvided: true
+[2] KeyProvided: false
+[2] Revision: 0
+[2] UrlProvided: false
+[3] Status: 2 (SecureHidden)
+[3] InfoProvided: true
+[3] KeyProvided: false
+[3] Revision: 0
+[3] UrlProvided: false
+[4] Status: 2 (SecureHidden)
+[4] InfoProvided: true
+[4] KeyProvided: false
+[4] Revision: 0
+[4] UrlProvided: false
+[5] Status: 2 (SecureHidden)
+[5] InfoProvided: true
+[5] KeyProvided: false
+[5] Revision: 0
+[5] UrlProvided: false
+[6] Status: 2 (SecureHidden)
+[6] InfoProvided: true
+[6] KeyProvided: false
+[6] Revision: 0
+[6] UrlProvided: false
+[7] Status: 2 (SecureHidden)
+[7] InfoProvided: true
+[7] KeyProvided: false
+[7] Revision: 0
+[7] UrlProvided: false
+[8] Status: 2 (SecureHidden)
+[8] InfoProvided: true
+[8] KeyProvided: false
+[8] Revision: 0
+[8] UrlProvided: false
+[9] Status: 2 (SecureHidden)
+[9] InfoProvided: true
+[9] KeyProvided: false
+[9] Revision: 0
+[9] UrlProvided: false
 
 ClientToServer: CMSG_ENUM_CHARACTERS (0x0037) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:05.000 Number: 4
 
@@ -707,11 +748,7 @@ Text: them in order to avoid potential in-game issues.
 Chat Tag: 0 (None)
 
 ServerToClient: SMSG_SET_REST_START (0x021E) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:17.000 Number: 16
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| 2D 00 00 00                                     | - . . .                         |
-|-------------------------------------------------|---------------------------------|
+RestedTime: 45
 
 ServerToClient: SMSG_BIND_POINT_UPDATE (0x0155) Length: 20 ConnIdx: 0 Time: 01/01/1970 00:00:18.000 Number: 17
 Position: X: -8949.95 Y: -132.493 Z: 83.5312
@@ -5895,11 +5932,8 @@ Gender: 1 (Female)
 Class: 2 (Paladin)
 
 ServerToClient: SMSG_MEETINGSTONE_SETQUEUE (0x0295) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:02:00.000 Number: 119
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| 00 00 00 00 05                                  | . . . . .                       |
-|-------------------------------------------------|---------------------------------|
+AreaId: 0
+Status: 5
 
 ServerToClient: SMSG_QUERY_TIME_RESPONSE (0x01CF) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:02:01.000 Number: 120
 Current Time: 03/29/2006 12:51:43

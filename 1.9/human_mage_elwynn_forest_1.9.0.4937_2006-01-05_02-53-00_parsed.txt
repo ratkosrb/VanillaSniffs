@@ -2,8 +2,8 @@
 # File name: human_mage_elwynn_forest_1.9.0.4937_2006-01-05_02-53-00.pkt
 # Detected build: V1_9_0_4937
 # Detected locale: enUS
-# Targeted database: Classic
-# Parsing date: 10/07/2023 11:49:01
+# Targeted database: Zero
+# Parsing date: 10/05/2024 09:05:17
 
 ClientToServer: CMSG_ENUM_CHARACTERS (0x0037) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:01.000 Number: 0
 
@@ -599,11 +599,7 @@ ServerToClient: SMSG_IGNORE_LIST (0x006B) Length: 1 ConnIdx: 0 Time: 01/01/1970 
 Count: 0
 
 ServerToClient: SMSG_SET_REST_START (0x021E) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:00:10.000 Number: 9
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| F2 CC 0F 00                                     | . . . .                         |
-|-------------------------------------------------|---------------------------------|
+RestedTime: 1035506
 
 ServerToClient: SMSG_BIND_POINT_UPDATE (0x0155) Length: 20 ConnIdx: 0 Time: 01/01/1970 00:00:11.000 Number: 10
 Position: X: -8949.95 Y: -132.493 Z: 83.5312
@@ -6932,11 +6928,8 @@ ServerToClient: MSG_QUERY_NEXT_MAIL_TIME (0x0284) Length: 4 ConnIdx: 0 Time: 01/
 Time since last time visiting a mailbox (can be < 0.0): -86400
 
 ServerToClient: SMSG_MEETINGSTONE_SETQUEUE (0x0295) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:02:40.000 Number: 159
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| 00 00 00 00 05                                  | . . . . .                       |
-|-------------------------------------------------|---------------------------------|
+AreaId: 0
+Status: 5
 
 ServerToClient: SMSG_ON_MONSTER_MOVE (0x00DD) Length: 47 ConnIdx: 0 Time: 01/01/1970 00:02:41.000 Number: 160
 GUID: Full: 0xF0004000000675D6 Type: DynamicObject Low: 70368744601046

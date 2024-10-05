@@ -2,8 +2,8 @@
 # File name: night_elf_warrior_blackwing_lair_1.8.3.4807_2005-11-29_18-07-00.pkt
 # Detected build: V1_8_3_4807
 # Detected locale: enUS
-# Targeted database: Classic
-# Parsing date: 10/07/2023 11:39:00
+# Targeted database: Zero
+# Parsing date: 10/05/2024 09:00:20
 
 ClientToServer: CMSG_ENUM_CHARACTERS (0x0037) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:00:01.000 Number: 0
 
@@ -1386,11 +1386,7 @@ Gender: 0 (Male)
 Class: 4 (Rogue)
 
 ServerToClient: SMSG_SET_REST_START (0x021E) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:02:02.000 Number: 121
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| AB 01 00 00                                     | . . . .                         |
-|-------------------------------------------------|---------------------------------|
+RestedTime: 427
 
 ServerToClient: SMSG_BIND_POINT_UPDATE (0x0155) Length: 20 ConnIdx: 0 Time: 01/01/1970 00:02:03.000 Number: 122
 Position: X: -4839.641 Y: -859.5282 Z: 502.6955
@@ -14555,10 +14551,6 @@ ClientToServer: CMSG_GM_TICKET_GET_TICKET (0x0211) Length: 0 ConnIdx: 0 Time: 01
 ClientToServer: CMSG_QUERY_TIME (0x01CE) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:04:27.000 Number: 266
 
 ClientToServer: MSG_LOOKING_FOR_GROUP (0x01FF) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:04:28.000 Number: 267
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-|-------------------------------------------------|---------------------------------|
 
 ClientToServer: MSG_QUERY_NEXT_MAIL_TIME (0x0284) Length: 0 ConnIdx: 0 Time: 01/01/1970 00:04:29.000 Number: 268
 
@@ -14626,11 +14618,7 @@ Gender: 0 (Male)
 Class: 1 (Warrior)
 
 ServerToClient: MSG_LOOKING_FOR_GROUP (0x01FF) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:04:46.000 Number: 285
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| 00 00 00 00                                     | . . . .                         |
-|-------------------------------------------------|---------------------------------|
+Status: 0
 
 ServerToClient: SMSG_BATTLEFIELD_STATUS (0x02D4) Length: 4 ConnIdx: 0 Time: 01/01/1970 00:04:47.000 Number: 286
 Map Id: 0
@@ -14736,11 +14724,8 @@ Waypoints: 1
 Waypoint Endpoint: X: -7535.464 Y: -981.3019 Z: 449.2419
 
 ServerToClient: SMSG_MEETINGSTONE_SETQUEUE (0x0295) Length: 5 ConnIdx: 0 Time: 01/01/1970 00:04:58.000 Number: 297
-|-------------------------------------------------|---------------------------------|
-| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0 1 2 3 4 5 6 7 8 9 A B C D E F |
-|-------------------------------------------------|---------------------------------|
-| 00 00 00 00 05                                  | . . . . .                       |
-|-------------------------------------------------|---------------------------------|
+AreaId: 0
+Status: 5
 
 ServerToClient: SMSG_ON_MONSTER_MOVE (0x00DD) Length: 53 ConnIdx: 0 Time: 01/01/1970 00:04:59.000 Number: 298
 GUID: Full: 0xF002E00000001154 Type: DynamicObject Low: 809240558047572
@@ -20914,7 +20899,7 @@ Target GUID: 0x0
 Source Position: X: -7483.793 Y: -1015.995 Z: 408.6521
 
 ServerToClient: SMSG_ATTACKER_STATE_UPDATE (0x014A) Length: 61 ConnIdx: 0 Time: 01/01/1970 00:14:58.000 Number: 897
-HitInfo: 1122 (HITINFO_AFFECTS_VICTIM, HITINFO_FULL_ABSORB, HITINFO_PARTIAL_ABSORB, HITINFO_UNK10)
+HitInfo: 1122 (HITINFO_AFFECTS_VICTIM, HITINFO_DEBUG, HITINFO_UNK6, HITINFO_UNK10)
 AttackerGUID: Full: 0xF002E00000001046 Type: DynamicObject Low: 809240558047302
 TargetGUID: Full: 0x000196DB Type: Player Low: 104155 Name: Strongheart
 Damage: 1522
@@ -21138,7 +21123,7 @@ Has Transport: false
 [1] GAMEOBJECT_FLAGS: 32
 
 ServerToClient: SMSG_ATTACKER_STATE_UPDATE (0x014A) Length: 61 ConnIdx: 0 Time: 01/01/1970 00:15:23.000 Number: 922
-HitInfo: 1048674 (HITINFO_AFFECTS_VICTIM, HITINFO_FULL_ABSORB, HITINFO_PARTIAL_ABSORB, HITINFO_UNK20)
+HitInfo: 1048674 (HITINFO_AFFECTS_VICTIM, HITINFO_DEBUG, HITINFO_UNK6, HITINFO_GLANCING)
 AttackerGUID: Full: 0x000196DB Type: Player Low: 104155 Name: Strongheart
 TargetGUID: Full: 0xF002E00000001046 Type: DynamicObject Low: 809240558047302
 Damage: 110
@@ -21286,7 +21271,7 @@ Has Transport: false
 [1] UNIT_FIELD_HEALTH: 29
 
 ServerToClient: SMSG_ATTACKER_STATE_UPDATE (0x014A) Length: 61 ConnIdx: 0 Time: 01/01/1970 00:15:38.000 Number: 937
-HitInfo: 525538 (HITINFO_AFFECTS_VICTIM, HITINFO_FULL_ABSORB, HITINFO_PARTIAL_ABSORB, HITINFO_FULL_RESIST, HITINFO_UNK10, HITINFO_UNK19)
+HitInfo: 525538 (HITINFO_AFFECTS_VICTIM, HITINFO_DEBUG, HITINFO_UNK6, HITINFO_UNK7, HITINFO_UNK10, HITINFO_UNK19)
 AttackerGUID: Full: 0xF002E00000001046 Type: DynamicObject Low: 809240558047302
 TargetGUID: Full: 0x000196DB Type: Player Low: 104155 Name: Strongheart
 Damage: 1335
@@ -21656,7 +21641,7 @@ Has Transport: false
 [0] PLAYER_BLOCK_PERCENTAGE: 1120324813/99.4
 
 ServerToClient: SMSG_ATTACKER_STATE_UPDATE (0x014A) Length: 61 ConnIdx: 0 Time: 01/01/1970 00:16:17.000 Number: 976
-HitInfo: 226 (HITINFO_AFFECTS_VICTIM, HITINFO_FULL_ABSORB, HITINFO_PARTIAL_ABSORB, HITINFO_FULL_RESIST)
+HitInfo: 226 (HITINFO_AFFECTS_VICTIM, HITINFO_DEBUG, HITINFO_UNK6, HITINFO_UNK7)
 AttackerGUID: Full: 0x000196DB Type: Player Low: 104155 Name: Strongheart
 TargetGUID: Full: 0xF002E00000001046 Type: DynamicObject Low: 809240558047302
 Damage: 137
@@ -21681,7 +21666,7 @@ Power type: 1 (Rage)
 Amount: 73
 
 ServerToClient: SMSG_ATTACKER_STATE_UPDATE (0x014A) Length: 61 ConnIdx: 0 Time: 01/01/1970 00:16:19.000 Number: 978
-HitInfo: 525538 (HITINFO_AFFECTS_VICTIM, HITINFO_FULL_ABSORB, HITINFO_PARTIAL_ABSORB, HITINFO_FULL_RESIST, HITINFO_UNK10, HITINFO_UNK19)
+HitInfo: 525538 (HITINFO_AFFECTS_VICTIM, HITINFO_DEBUG, HITINFO_UNK6, HITINFO_UNK7, HITINFO_UNK10, HITINFO_UNK19)
 AttackerGUID: Full: 0xF002E00000001046 Type: DynamicObject Low: 809240558047302
 TargetGUID: Full: 0x000196DB Type: Player Low: 104155 Name: Strongheart
 Damage: 1618
@@ -21985,7 +21970,7 @@ Target Flags: 2 (Unit)
 Target GUID: Full: 0x000196DB Type: Player Low: 104155 Name: Strongheart
 
 ServerToClient: SMSG_ATTACKER_STATE_UPDATE (0x014A) Length: 61 ConnIdx: 0 Time: 01/01/1970 00:16:46.000 Number: 1005
-HitInfo: 790754 (HITINFO_AFFECTS_VICTIM, HITINFO_FULL_ABSORB, HITINFO_PARTIAL_ABSORB, HITINFO_FULL_RESIST, HITINFO_UNK12, HITINFO_NO_ANIMATION, HITINFO_UNK19)
+HitInfo: 790754 (HITINFO_AFFECTS_VICTIM, HITINFO_DEBUG, HITINFO_UNK6, HITINFO_UNK7, HITINFO_NOACTION, HITINFO_UNK18, HITINFO_UNK19)
 AttackerGUID: Full: 0xF002E00000001046 Type: DynamicObject Low: 809240558047302
 TargetGUID: Full: 0x000196DB Type: Player Low: 104155 Name: Strongheart
 Damage: 0
